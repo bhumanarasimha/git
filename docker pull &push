@@ -1,3 +1,9 @@
+FROM python
+WORKDIR /sample
+COPY . .
+CMD ["python","app.py"]
+
+
 docker build -t newapp .
 docker images
 docker run newapp
