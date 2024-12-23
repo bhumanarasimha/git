@@ -1,0 +1,17 @@
+mkdir bumha
+cd bumha
+mkdir venkat
+cd venkat
+echo "hii">>filel.txt
+notpad file2.txt
+git init
+git config usre.name " ___"
+git config user.email ""
+git remote and origin "link"
+git add file1.txt
+git add file2.txt
+git commit -m "no change"
+git branch -m main
+git push -u origin main
+git pull origin main
+git clone "link"
